@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         CamionDeReparto camion = new CamionDeReparto("B178", -12, 12, true);
 
-        BuqueCarga buque = new BuqueCarga("T481", 14, 50, 60);
+        BuqueCarga buque = new BuqueCarga("T481", 14, 70, 50);
 
         camion.setCombustible(-20);
         System.out.println("combustible: " + camion.getCombustible());
-        
+
         System.out.println("\n---- DEMOSTRACIÓN DE POLIMORFISMO ----");
 
         ArrayList<Transporte> flota = new ArrayList<>();

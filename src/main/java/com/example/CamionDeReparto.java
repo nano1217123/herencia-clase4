@@ -16,7 +16,7 @@ public class CamionDeReparto extends Transporte {
         if (tieneRefrigeracion) {
             consumo = distancia / 5;
             if (getCombustible() >= consumo) {
-                setCombustible(getCombustible() - consumo * 2);
+                setCombustible(getCombustible());
             } else {
                 setCombustible(0);
                 System.out.println("No hubo combustible suficiente para todo el trayecto.");
